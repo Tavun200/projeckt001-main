@@ -1,0 +1,23 @@
+/* 모든 페이지에서 공통으로 사용되는 디자인 */
+/* 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+/* .electrolize-regular {
+  font-family: "Electrolize", sans-serif;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+*{
+  /* font-family: "Electrolize", sans-serif; */
+  font-family: Arial, sans-serif;
+}
+
+a{
+  text-decoration-line: none; /*로고 넣을지 말지 넣으면 사진넣을지*/
+}
+
+#logo{
+  color: aliceblue;
+}

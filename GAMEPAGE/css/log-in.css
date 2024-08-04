@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-box {
+    background-color: rgba(51, 51, 51, 0.9); /* 투명도 추가 */
+    color: white;
+    padding: 80px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin: 0 0 20px;
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    background-color: #777;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    /* width: 100%; */
+    width: 280px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.links {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.links a {
+    color: #bbb;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.signup {
+    margin-top: 15px;
+}
+
+.signup p {
+    margin: 0 0 10px;
+}
+
+/* .signup button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+} */
+
+.signup a {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}

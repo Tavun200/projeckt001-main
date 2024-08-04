@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GAMEPAGE SIGN-UP</title>
+  <link rel="stylesheet" href="../css/auth.css">
+  <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+  <div id="auth-background">
+
+    <form id="auth-container">
+
+      <div id="auth-layer1">
+        <p id="page-title"><b>SIGN UP</b></p>
+        <a href="" id="logo">GAMEPAGE</a>
+      </div>
+
+      <div id="auth-layer2">
+
+        <div class="input">
+          <label for="email">email</label>
+          <input type="text">
+        </div>
+
+        <div class="input">
+          <label for="r.r-number">birth date</label>
+          <div id="r.r-number">
+            <input id="first-number" type="text">
+            <span id="dash">-</span>
+            <input id="second-number" type="text">
+          </div>
+        </div>
+
+        <div class="input">
+          <label for="id">ID</label>
+          <div>
+            <input id="ID" type="text">
+            <input type="submit" value="ID check" id="ID-check">
+          </div>
+        </div>
+
+        <div class="input">
+          <label for="password">password</label>
+          <input type="password">
+          <label for="password-check">password check</label>
+          <input type="password">
+        </div>
+
+        <div class="input">
+          <label for="personal-question">Security Question</label>
+          <select id="personal-question">
+            <option value="1">My first game</option>
+            <option value="2">My favorite game</option>
+            <option value="3">console vs. online</option>
+          </select>
+        </div>
+
+        <div class="input">
+          <label for="nickname">Nickname</label>
+          <input id="nickname" type="text">
+        </div>
+
+        <div class="bottom">
+          <button>SIGN UP</button>
+          <a href="./log-in.html">Already have an account?</a>
+        </div>
+      </div>
+    </form>
+
+  </div>
+</body>
+</html>
